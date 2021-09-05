@@ -1,0 +1,1 @@
+Over time, you might start to notice that several functions work in tandem frequently. If you're passing the result of one funtion to another often, or if several of your functions require the same input data, its possible a *class* is waiting to be extracted from your code
