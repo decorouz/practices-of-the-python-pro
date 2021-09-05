@@ -11,3 +11,6 @@ Classes group closely related behaviors and data together into an object.
 Modules group related classes, functions, and data while keeping independent concerns separate. Explicitly importing code from other modules makes it clear what’s being used where.
 
 Packages help create a hierarchy of modules that helps with naming and code discovery.
+
+
+Decompostion: Helps you handle big ideas in small increments
