@@ -1,1 +1,13 @@
 Over time, you might start to notice that several functions work in tandem frequently. If you're passing the result of one funtion to another often, or if several of your functions require the same input data, its possible a *class* is waiting to be extracted from your code
+
+
+Summary
+====
+Separation of concerns is a major key to understandable code; many design concepts arise directly from this principle.
+
+Functions extract named concepts from procedural code. Clarity and separation are the primary objectives of extraction; reuse is a secondary benefit.
+
+Classes group closely related behaviors and data together into an object.
+Modules group related classes, functions, and data while keeping independent concerns separate. Explicitly importing code from other modules makes it clear what’s being used where.
+
+Packages help create a hierarchy of modules that helps with naming and code discovery.
