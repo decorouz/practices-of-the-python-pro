@@ -1,0 +1,13 @@
+The anatomy of a functional test:
+1.  Set up the inputs
+2.  Identify the required/expected output
+2.  Obtain the actual output
+4.  Compare the expeced and actual outputs
+
+
+If you want to test the transform_name_for_sku method from the Product class, this recipe becomes:
+
+1.  Create an instance of Product with a name, size, and color.
+2.  Observe that transform_name_for_sku return name.upper(); the expected result is the name in uppercase.
+3.  Call the Product instance's transform_name_for_sku method and save it in a variable
+4. Compare the expected result to the saved actual result
