@@ -1,0 +1,9 @@
+Summary
+1. Design for performance both up front and iteratively throughout your development.
+
+
+2. Think carefully about the right data type for the task.
+
+3. Prefer generators over lists when you don’t need all the values at once, to save on memory usage.
+
+4. Use the timeit and cProfile/profile Python modules to test your hypotheses about complexity and performance.
