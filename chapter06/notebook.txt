@@ -1,0 +1,29 @@
+An initial code structure, by concern
+
+I try to start developing application like Bark with a concise explanation of how it does what it does. This tend to lead to an initial architecture
+
+For example, how does Bark work? 
+What is it's concise description?
+
+Using comman-line interface, a user chooses options for adding, removing and listing bookmarks stored in a database.
+
+    Command-line interface--  This is a way to presemt options to a user and understand which options thay choose. 
+
+    Choosing options: Once an option is chosen, some action or business logic happens as a result.
+
+    Stored in a Database: Data needs to be persisted for later use
+
+
+
+Abstraction claims to provide a simple way to get something done, but it ultimately requires you to have some knkowlede about waht lies beneath when using it
+
+
+            CLI is the presentation layer
+            Business logic layer
+            Database is the persistence layer
+
+MVC - Model-View-Controller: is a way of modeling data for persistence, providing users with a view into that data, and allowing them to control changes to that data with some set of actions.
+
+The Persistence layer:
+------
+This layer will be concerned with taking information it receives and communicating it to the database.
