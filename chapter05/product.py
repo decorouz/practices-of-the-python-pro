@@ -9,13 +9,15 @@ class Product:
         self.color = color
 
     def transform_name_for_sku(self):
-        return self.name.upper()
+        return self.name.upper().replace(" ", "")
 
     def transform_color_for_sku(self):
         return self.color.upper()
 
     def generate_sku(self):
         """Generates a SKU (Stock keeping unit) for this product.
+
+
 
         Example:
         >>> small_black_shoes = Product("shoes", "S", "black")
@@ -24,8 +26,7 @@ class Product:
         """
         name = self.transform_name_for_sku()
         color = self.transform_color_for_sku()
-        return f"{name}-{self.size}-{color} "
+        return f"{name}-{self.size}-{color}"
 
 
 small_black_shoe = Product("shoes", "S", "black")
-print(small_black_shoe)
