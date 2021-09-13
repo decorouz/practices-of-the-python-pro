@@ -27,3 +27,25 @@ MVC - Model-View-Controller: is a way of modeling data for persistence, providin
 The Persistence layer:
 ------
 This layer will be concerned with taking information it receives and communicating it to the database.
+
+
+Presentation layer
+------
+
+"""
+    The presentation later of Bark contains an infinite loop:
+        1. Clears the screen
+        2. Prints the menu options
+        3. Gets the user choice
+        4. Clears the screen and executes the comman corresponding to the users choice
+        5. Wait for the user to review the result, pressing Enter when they're done
+    ""
+
+
+
+Nerding out
+        We just covered a heck of a lot of stuff, but I want to point out something I find exciting. Because of the way you’ve built Bark, if you want to add new functionality, there’s a clear roadmap:
+
+        Add any new database manipulation methods you may need to database.py.
+        Add a command class that performs the business logic you need in commands.py.
+        Hook up the new command to a new menu option in bark.py.
